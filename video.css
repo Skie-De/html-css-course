@@ -1,5 +1,6 @@
 .thumbnail {
-    width: 100%;
+    width: 430px;
+    border-radius: 10px;
   }
   
   .video-title {
@@ -37,26 +38,16 @@
   
   .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 16px;
+    grid-template-columns: 60px 60px 58px;
+    column-gap: 50px;
     row-gap: 40px;
   }
   
-  @media (max-width: 750px) {
-    .video-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
   
-  @media (min-width: 751px) and (max-width: 999px) {
-    .video-grid {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
   
-  @media (min-width: 1000px) {
+  @media (min-width: 751px) and (max-width: 2000px) {
     .video-grid {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns:  1fr 1fr 1fr;
     }
   }
   
